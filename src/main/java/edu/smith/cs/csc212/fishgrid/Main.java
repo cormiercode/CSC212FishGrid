@@ -17,13 +17,15 @@ import me.jjfoley.gfx.TextBox;
  */
 public class Main extends GFX {
 	/**
-	 * Game size (visual). TODO(lab) Try changing this to 600.
+	 * Game size (visual).
 	 */
-	public static int VISUAL_GRID_SIZE = 400;
+	//in LAB made window larger
+	public static int VISUAL_GRID_SIZE = 600;
 	/**
-	 * Game size (logical). TODO(lab) Try changing this to 15 or so.
+	 * Game size (logical).
 	 */
-	public static int LOGICAL_GRID_SIZE = 10;
+	//In LAB made grid split into 15 not 10
+	public static int LOGICAL_GRID_SIZE = 15;
 	/**
 	 * The words appear in the top part of the screen.
 	 */
